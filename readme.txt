@@ -15,6 +15,9 @@ The system uses:
 
 ## Project Structure
 
-* `sketch_apr28a.ino` – ESP8266 microcontroller program
+* `sketch_apr28a.ino` – runs on ESP8266 connected to an MFRC522 and a servomotor that simulated an electric lock
 * `mqtt/` – MQTT communication
 * `web/` – web application and database management
+
+everything besides the .ino is located on the Raspberry Pi 3 device that acts as a central server,
+all components are connected to the local wifi network
